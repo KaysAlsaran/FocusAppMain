@@ -78,7 +78,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={styles.scrollContainer} showsVerticalScrollIndicator={false}>
         <Text style={styles.header}>Deep Focus</Text>
-        <Text style={styles.subtitle}>Stay in flow, track distractions, celebrate wins.</Text>
+        <Text style={styles.subtitle}>Stay in flow, track distractions,celebrate wins.</Text>
 
         {/* Category Picker */}
         <TouchableOpacity style={styles.selector} onPress={() => openSelector('category')} disabled={mode !== 'idle'}>
@@ -228,4 +228,4 @@ export default function HomeScreen() {
       </ScrollView>
     </SafeAreaView>
   );
-}
+} //homepage
