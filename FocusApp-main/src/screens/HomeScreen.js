@@ -228,4 +228,4 @@ export default function HomeScreen() {
       </ScrollView>
     </SafeAreaView>
   );
-} //homepa
+} //homepaage
