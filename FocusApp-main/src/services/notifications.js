@@ -17,7 +17,7 @@ export const configureNotifications = () => {
       vibrationPattern: [0, 250, 250, 250],
     }).catch(() => {});
   }
-};
+};//k
 
 export const registerForPushNotificationsAsync = async () => {
   try {
